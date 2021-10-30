@@ -31,7 +31,7 @@ tmr.setAnswers(<TaskLibAnswers>{
         exec: {
                 [helpers.createToolCall(executable)]: {
                         'code': 1,
-                        'stdout': 'Gitleaks tool contsole output',
+                        'stdout': 'Gitleaks tool console output',
                 },
         },
 });
