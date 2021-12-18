@@ -12,7 +12,7 @@ let tmr: mr.TaskMockRunner = new mr.TaskMockRunner(taskPath)
 
 new EnvironmentBuilder()
   .withEnvironmentalSetting('AGENT_OS', 'Windows_NT')
-  .withEnvironmentalSetting('AGENT_OSARCHITECTURE', 'x86')
+  .withEnvironmentalSetting('AGENT_OSARCHITECTURE', 'x128')
   .build()
 
 tmr = new TaskInputBuilder(tmr)
